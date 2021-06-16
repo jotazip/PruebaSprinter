@@ -1,4 +1,4 @@
-package es.sprinter.entity;
+package es.commerce.entity;
 
 import java.math.BigDecimal;
 

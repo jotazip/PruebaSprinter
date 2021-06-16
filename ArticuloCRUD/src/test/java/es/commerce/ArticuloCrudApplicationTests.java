@@ -1,4 +1,4 @@
-package es.sprinter;
+package es.commerce;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

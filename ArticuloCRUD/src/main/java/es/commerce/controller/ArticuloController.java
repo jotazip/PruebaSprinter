@@ -1,4 +1,4 @@
-package es.sprinter.controller;
+package es.commerce.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import es.sprinter.entity.Articulo;
-import es.sprinter.service.ArticuloService;
+import es.commerce.entity.Articulo;
+import es.commerce.service.ArticuloService;
 
 @RestController
 @RequestMapping(value = "api")
@@ -26,7 +26,7 @@ public class ArticuloController {
 
 	@Autowired
 	private ArticuloService articuloService;
-	Logger logger = Logger.getLogger("Logger Sprinter"); 
+	Logger logger = Logger.getLogger("Logger commerce"); 
 
 	@GetMapping(value = "/articulos")
 	public ResponseEntity<Articulo> list() {

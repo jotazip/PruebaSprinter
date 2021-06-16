@@ -1,11 +1,11 @@
-package es.sprinter.service;
+package es.commerce.service;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import es.sprinter.entity.Articulo;
+import es.commerce.entity.Articulo;
 
 @Service
 public interface ArticuloService {

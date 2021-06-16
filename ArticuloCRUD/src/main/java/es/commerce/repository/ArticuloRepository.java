@@ -1,4 +1,4 @@
-package es.sprinter.repository;
+package es.commerce.repository;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import es.sprinter.entity.Articulo;
+import es.commerce.entity.Articulo;
 
 @Repository
 public interface ArticuloRepository extends JpaRepository<Articulo, String>{
